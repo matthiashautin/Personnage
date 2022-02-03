@@ -4,7 +4,7 @@ public class jeuPersonnage {
 	public static void main(String args[]){
 
 //Créer Bot (String name, int life, int level, int damage, int xp)
-		Personnage Bot = new Personnage("Bot1", 100,1,75,0);
+		Personnage Bot = new Personnage("DéDé", 100,1,75,0);
 
 //Créer NewPersonnage (String name, int life, int level, int damage, int xp)
 		System.out.println("\nVeuillez saisir un Pseudo :");
