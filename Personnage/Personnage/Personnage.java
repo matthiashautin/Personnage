@@ -20,6 +20,7 @@ public class Personnage {
 	public void Levelsup(int nb_levelsup) {
 		this.niveau = this.niveau + nb_levelsup;
 	}
+	//XP Sup
 	public void xpsup(int xp_sup) {
 		this.xp = this.xp + xp_sup;
 	}
@@ -39,7 +40,7 @@ public class Personnage {
 	public int nb_degat(){
 		return this.nb_degat;
 	}
-	//d'autres à créer
+	
 	//Les Attributs
 		private String nom;
 		private int vie;
